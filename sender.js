@@ -9,3 +9,9 @@ axios.post('http://saegeii.axel-cal.fr/api/post', {
   .catch(error => {
     console.error('Erreur lors de la requête:', error);
   });
+
+
+
+
+
+  
