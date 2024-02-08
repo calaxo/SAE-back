@@ -1,4 +1,5 @@
 const express = require("express");
+
 const app = express();
 const path = require("path");
 const cors = require("cors");
@@ -125,6 +126,8 @@ app.post("/api/post", async (req, res) => {
     res.status(500).send("Internal Server Error");
   }
 });
+
+
 
 // Start the server
 app.listen(port, () => {
