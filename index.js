@@ -6,8 +6,10 @@ const cors = require("cors");
 const fs = require("fs");
 
 const mysql = require("mysql");
-const dbConfig = require('./dbConfig');
 const port = 3129;
+
+
+const dbConfig = require('./dbConfig');
 
 const pool = mysql.createPool(dbConfig);
 
